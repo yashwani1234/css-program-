@@ -1,0 +1,122 @@
+*
+{
+ margin:0;
+ padding:0;
+}
+body
+{
+ background-color:red;
+}
+a
+{
+ text-decoration:none;
+}
+.slider
+{
+ margine:25px;
+ width:350px;
+ background-color:#f02c2c;
+ border-radius:25px;
+ overflow:hidden;
+}
+.image
+{  
+ position:relative;
+}
+.image img
+{
+ height:450p;
+ width:340px;
+ object-fit:cober;
+ box-sizing:border-box;
+}
+.product-details
+{
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ box-sizing:border-box;
+}
+.product-name
+{
+ display:flrx;
+ flex-direction:column;
+}
+.product-name a
+{
+ color:#fff;
+ margin:20px ppx;
+ font-size:20px;
+ font-weight:border;
+}
+span
+{
+ color:rgb(228,225,225);
+}
+.price
+{
+ font-size:17px;
+ font-weight:bold;
+ margin-top:23px:
+}
+.Button
+{ 
+ display:flex;
+ justify-content:center;
+ align-itens:center;
+ position:absolute;
+ height:100%;
+ weight:100%;
+ top:50%;
+ left:50%;
+ transform:translate(-50%,-50%);
+ background-color:rgba(0,0,0,0.6);
+}
+.bts
+{ 
+ dispay:flex;
+ justify-content:center;
+ align-items:center;
+ border-radius:25px;
+ heigth:50px;
+ width:250px;
+ background-color:#f02c2c;
+ color:#fff;
+ font-size:20px;
+ font-weight:bolder;
+}
+.btn:hover
+{
+ background-color:#fff;
+ color:#f02c2c;
+ transition:all ease 1s;
+}
+.Button
+{   
+ visibility:hidden;
+}
+.image:hover .Button
+{
+ visibility:visible;
+ animation:animation 1s;
+}
+@keyframe animation
+{  
+  0%
+  {
+    opacity:0;
+  }
+  100%
+  {
+    opqcity:1;
+  }
+}
+.container
+{  
+ display:flex;
+ justify-content:left;
+ height:600px;
+ width:4000px;
+ margin:10px auto;
+ 
+}
